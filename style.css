@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fixtwidth{
+    width: 1200px;
+    margin: auto;
+}
+.baner{ 
+    background-color: rgb(0, 225, 255);
+}
+.baner-left{
+    float: left;
+    width: 30%;
+}
+.baner-left img{
+    width: 100px;
+    margin-top: 30px;
+}
+
+.baner-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.baner-right ul{
+    list-style: none;
+
+}
+.baner-right ul li{
+    display: inline-block;
+    
+}
+.baner-right ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 20px;
+    line-height: 100px;
+    transition: .4s;
+    transform: rotate(0);
+}
+.baner-right ul li a:hover{
+    background-color: aquamarine;
+    transform: rotate(360deg);
+    border-bottom: 3px dotted red;
+}
+.bag-baner{
+    background-image: url("https://th.bing.com/th/id/R.4ce7ac4a8aefc497a26122e68d743c41?rik=UzjQ98aYbfI%2bgw&pid=ImgRaw&r=0");
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    padding: 100px;
+}
+.content1{
+    text-align:center ;
+    
+}
+.content1 h1{
+font-size: 50px;
+color: azure;
+}
+.content1 h2{
+    padding-top: 60px;
+    color: rgb(255, 172, 127);
+    font-size: 30px;
+}
+.mean-content{
+    text-align: center;
+    margin-top: 20px;
+}
+.content2{
+    padding-top: 20px;
+}
+.content2 h1{
+    
+}
+.content2 p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 50px;
+}
+.menu-iteam{
+    float: left;
+    width: 24.5%;
+    text-align: center;
+    border: 1px solid rgb(0, 225, 255);
+    
+    
+}
+.menu-iteam samp{
+background-color: aqua;
+color: rgb(56, 13, 230);
+height: 50px;
+width: 50px;
+display: block;
+margin: auto;
+line-height: 50px;
+border-radius: 0px 20px 0px 20px;
+font-size: 20px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+.menu-iteam h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.menu-iteam p{
+    font-size: 20px;
+}
+.boder{
+    border: 3px solid blue;
+    margin-top: 20px;
+}
+.content3{
+    text-align: center;
+    margin-top: 50px;
+}
+.content4{}
+.content4 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content4 p{
+    font-size: 20px;
+}
+.blog{
+    margin-top: 50px;
+}
+.img1{
+    float: left;
+    width: 40%;
+}
+.content5{
+    float: right;
+    width: 55%;
+    padding: 30px 0px;
+    
+}
+.content6{
+text-align: center;
+margin-top: 50px;
+}
+.content7{
+
+}
+.content7 h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.content7 p{
+    font-size: 20px;
+}
+.last{}
+.last-itaem{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 30px;
+}
+.last-itaem samp{
+    color: aquamarine;
+  margin-bottom: 10px;
+  display: block;
+}
+.sociel-menu{
+    background-color: blueviolet;
+    height: 80px;
+    margin-top: 30px;
+}
+.icon{
+    text-align: center;
+  
+
+}
+.icon ul{}
+.icon ul li{
+    display: inline-block;
+    padding: 20px 50px;
+}
+.icon ul li a{
+    color: #fff;
+    font-size: 30px;
+   
+}
+
+
+
+
